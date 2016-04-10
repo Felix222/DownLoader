@@ -3,7 +3,7 @@ package com.felixpc.down.downloader;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -14,7 +14,7 @@ import com.felixpc.down.downloader.tool.Constant;
 import com.felixpc.down.downloader.tool.Utiles;
 import com.panwrona.downloadprogressbar.library.DownloadProgressBar;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, DownloadProgressBar.OnProgressUpdateListener {
+public class MainActivity extends FragmentActivity implements View.OnClickListener, DownloadProgressBar.OnProgressUpdateListener {
     private LinearLayout fatherLay;
     private MaterialEditText pathText;
     private DownloadProgressBar download_progressBar;
@@ -91,9 +91,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         hint_Text.setText("正在下载……");
     }
 
-    public void testChange() {
-
-    }
 
     @Override
     public void onAnimationEnded() {

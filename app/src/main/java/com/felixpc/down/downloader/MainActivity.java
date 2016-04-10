@@ -91,6 +91,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         hint_Text.setText("正在下载……");
     }
 
+    public void testChange() {
+
+    }
+
     @Override
     public void onAnimationEnded() {
         Log.i(TAG, "onAnimationEnded: ");

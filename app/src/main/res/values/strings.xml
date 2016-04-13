@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DownLoader</string>
+    <string name="create_dialog_hint_text">输入链接</string>
 </resources>

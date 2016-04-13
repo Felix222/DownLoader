@@ -3,15 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/father_lay"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_dark"
     android:orientation="vertical"
     tools:context=".View.MainActivity">
 
-    <TextView
-        android:id="@+id/testlay"
+    <include
+        layout="@layout/titlebar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/tast_reacyclerView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_marginLeft="4dp"-->
+        <!--android:layout_marginRight="4dp" />-->
 
 </LinearLayout>

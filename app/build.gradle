@@ -4,6 +4,8 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
 
+    useLibrary 'org.apache.http.legacy'//导入了httpclient
+
     defaultConfig {
         applicationId "com.felixpc.down.downloader"
         minSdkVersion 17
@@ -31,4 +33,7 @@ dependencies {
     compile 'fr.erictruong:materialedittext:0.2.0'
     compile 'com.android.support:support-v4:23.2.1'
     compile 'com.android.support:design:23.2.1'
+
+//  进度条
+    compile 'com.daimajia.numberprogressbar:library:1.2@aar'
 }

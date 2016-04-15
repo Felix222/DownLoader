@@ -1,4 +1,4 @@
-package com.felixpc.down.downloader.widget;
+package com.felixpc.down.downloader.View.widget;
 
 import android.app.Dialog;
 import android.content.Context;

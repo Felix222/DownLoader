@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<declare-styleable name="tast_control_button">-->
+        <!--<attr name="Task_statu" format="enum">-->
+            <!--<enum name="statu_play" value="1" />-->
+            <!--<enum name="statu_pause" value="2" />-->
+            <!--<enum name="statu_stop" value="0" />-->
+        <!--</attr>-->
+    <!--</declare-styleable>-->
+</resources>

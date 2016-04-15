@@ -1,4 +1,4 @@
-package com.felixpc.down.downloader.View;
+package com.felixpc.down.downloader.View.views;
 
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
